@@ -71,7 +71,7 @@ i::before {
 
 .content-left p.name {
     font-weight: 600;
-    font-size: 1.6em;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -79,7 +79,7 @@ i::before {
     color: var(--main);
     text-transform: uppercase;
     margin: 0;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .content-left p.title {
