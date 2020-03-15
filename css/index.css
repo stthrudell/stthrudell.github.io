@@ -29,7 +29,7 @@ i::before {
     margin: 30px;
     min-height: calc(100vh - 30px);
     border-radius: 3px;
-    box-shadow: var(--shadow-1);
+    box-shadow: var(--shadow-3);
     display: flex;
 }
 
