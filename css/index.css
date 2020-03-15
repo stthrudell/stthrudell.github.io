@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 i {
@@ -88,10 +88,11 @@ i::before {
     text-transform: uppercase;
     border-bottom: 2px solid;
     padding-bottom: 10px;
+    font-weight: 600;
 }
 
 .content-left .about p {    
-    font-size: .7em;
+    font-size: .8em;
     text-align: justify;
 }
 
@@ -159,19 +160,19 @@ i::before {
 
 .content-right .box .b-left p {
     font-size: .9em;
-    font-weight: 500;
+    font-weight: 600;
     word-spacing: 2px;
 }
 
 .content-right .box .b-right p.title {
     text-transform: uppercase;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
     border: 0;
 }
 
 .content-right .box .b-right p {
-    font-size: .7em;
+    font-size: .8em;
     text-align: justify;
 }
 
