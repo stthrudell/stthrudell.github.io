@@ -1,0 +1,235 @@
+body {
+    min-height: 100vh;
+    background: var(--main-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+i::before {
+    line-height: 20px;
+}
+
+.content-left i {
+    background-color: var(--white);
+    color: var(--main);
+}
+
+.main {
+    max-width: 1140px;
+    width: 100%;
+    background-color: var(--white);
+    margin: 30px;
+    min-height: calc(100vh - 30px);
+    border-radius: 3px;
+    box-shadow: var(--shadow-1);
+    display: flex;
+}
+
+/* CONTENT LEFT */
+
+.content-left, .content-right {
+    padding: 30px 15px;
+    margin: 30px;
+    text-align: center;
+}
+
+.content-left {
+    width: 30%;
+    background: var(--black);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-left div {
+    margin: 20px 0;
+    color: var(--white);
+}
+
+
+.content-left span.foto img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content-left p {
+    margin: 10px 0;    
+    font-size: .8em;    
+    color: var(--white);
+}
+
+.content-left p.name {
+    font-weight: 600;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+.content-left p.subtitle {
+    color: var(--main);
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1em;
+}
+
+.content-left p.title {
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.content-left .about p {    
+    font-size: .7em;
+    text-align: justify;
+}
+
+.content-left .about p.title {
+    text-align: center;
+    font-size: 1em;
+}
+
+.content-left .follow span {
+    display: block;
+    font-weight: 600;
+}
+
+.content-left .contact p {
+    margin-top: 0;
+}
+
+.content-left .contact span {
+    display: block;
+}
+
+/* CONTENT RIGHT */
+.content-right {
+    width: 70%;
+    text-align: left;
+}
+
+
+.content-right i::before {
+    line-height: 25px;
+    margin-right: 1px;
+}
+
+.content-right i {
+    background-color: var(--main);
+    color: var(--white);
+    width: 25px;
+    height: 25px;    
+    text-align: center;
+}
+
+.content-right .title {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.content-right .title span {
+    font-size: 1.1em;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.content-right .box {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.content-right .box .b-left {
+    min-width: 40%;
+}
+
+.content-right .box .b-left p {
+    font-size: .9em;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.content-right .box .b-right p.title {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    border: 0;
+}
+
+.content-right .box .b-right p {
+    font-size: .7em;
+    text-align: justify;
+}
+
+.box .skill {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.b-skill {
+    flex-wrap: wrap;
+}
+
+.box .skill .title {
+    border: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.box .skill span {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: var(--gray);
+}
+
+.box .skill span.percent {
+    background: var(--main);
+}
+
+.box .skill span.p-90 {
+    width: 90%;
+}
+
+.box .skill span.p-80 {
+    width: 80%;
+}
+
+.box .skill span.p-70 {
+    width: 70%;
+}
+
+@media  (max-width: 700px){
+    .main {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .content-left {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .content-right {
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        border-radius: 0;
+    }
+}
