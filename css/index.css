@@ -65,7 +65,7 @@ i::before {
 
 .content-left p {
     margin: 10px 0;    
-    font-size: .8em;    
+    font-size: .9em;    
     color: var(--white);
 }
 
@@ -92,7 +92,7 @@ i::before {
 }
 
 .content-left .about p {    
-    font-size: .8em;
+    font-size: 1em;
     text-align: justify;
 }
 
